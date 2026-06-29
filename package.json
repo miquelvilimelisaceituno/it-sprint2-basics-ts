@@ -13,7 +13,6 @@
   },
   "scripts": {
     "test": "npm run test:types && vitest --typecheck",
-    "test:types": "tsc --noEmit",
-    "prepare": "husky"
+    "test:types": "tsc --noEmit"
   }
 }
